@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "test": "jest"
+    "test": "jest",
+    "pack": "npm run build  && npm run test && npm pack"
   },
   "keywords": [
     "Typescript",
